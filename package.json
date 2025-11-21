@@ -1,0 +1,20 @@
+{
+  "name": "baked-lighting-threejs",
+  "version": "1.0.0",
+  "description": "Three.js website with baked lighting and materials",
+  "type": "module",
+  "scripts": {
+    "dev": "npx serve .",
+    "start": "npx serve ."
+  },
+  "keywords": [
+    "threejs",
+    "baked-lighting",
+    "webgl"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {}
+}
+
