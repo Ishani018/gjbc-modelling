@@ -71,6 +71,7 @@ gjbc-modelling/
 ├── index.html          # Main entry point
 ├── style.css           # UI styling
 └── README.md           # Documentation
+```
 👥 Contributors
 Ishani018
 
