@@ -65,6 +65,9 @@ To load the 3D models and textures correctly, you must run this project on a loc
 
 ## 📂 Project Structure
 gjbc-modelling/
+
+```text
+gjbc-modelling/
 ├── assets/             # Custom 3D models (.glb/.gltf) and textures
 ├── js/                 # Three.js scene logic and controllers
 ├── index.html          # Main entry point
