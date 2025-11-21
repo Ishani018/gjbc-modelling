@@ -37,11 +37,14 @@ Vite / Live server for local testing
 
 **🎯 Controls**
 
-Key	Action
 W	Move Forward
+
 S	Move Backward
+
 A	Move Left
+
 D	Move Right
+
 Mouse	Look Around
 
 **🧰 How It Works**
