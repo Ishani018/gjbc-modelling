@@ -64,3 +64,19 @@ To load the 3D models and textures correctly, you must run this project on a loc
 | **Space** | Jump |
 
 ## 📂 Project Structure
+gjbc-modelling/
+├── assets/             # Custom 3D models (.glb/.gltf) and textures
+├── js/                 # Three.js scene logic and controllers
+├── index.html          # Main entry point
+├── style.css           # UI styling
+└── README.md           # Documentation
+
+## 👥 Contributors
+* **[Ishani018](https://github.com/Ishani018)**
+* **[jahnvi1504](https://github.com/jahnvi1504)**
+* **[Parvparmar](https://github.com/Parvparmar)**
+
+*(Reference Collection, 3D Modeling & Development)*
+
+---
+*PES University – Campus Modelling Project*
