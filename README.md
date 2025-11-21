@@ -1,62 +1,66 @@
-**Chess Corridor — Blender + Three.js Interactive Scene**
+# GJBC Corridor Visualization | PES University 🏫
 
-An interactive 3D corridor themed around chess, modeled in Blender and rendered in the browser using Three.js.
-Use W / A / S / D keys to walk around the corridor in first-person style navigation.
+A browser-based 3D visualization of the **Golden Jubilee Block Complex (GJBC) corridor** at **PES University**.
 
-**🎮 Demo Features**
+This project is a faithful digital reconstruction of the hallway, built entirely from scratch to capture the specific architecture, lighting, and atmosphere of the campus block.
 
-✔️ 3D chess-themed corridor modeled entirely in Blender
+## 🍊 The Orange Problem
+**Objective:** Create a precise 3D model of a specific campus asset and visualize it on the web.
+**Scope:** Accurate geometric modeling of the GJBC corridor at PES University, featuring a dual-perspective camera system (FPV & TPV) for interactive exploration.
 
-✔️ Exported as GLTF / GLB for efficient rendering
+## 📖 Project Overview & Methodology
+This project serves as a digital twin of the GJBC corridor. To ensure maximum authenticity, the development process involved:
 
-✔️ Three.js scene setup with lighting, camera, and controls
+1.  **On-Site Reference Gathering:** Extensive photo and video documentation of the actual corridor was collected to capture textures, lighting conditions, and spatial proportions.
+2.  **Modeled from Scratch:** No pre-made environment assets were used. The entire geometry—including the pillars, ceiling grids, and the iconic **chess tables**—was modeled manually in Blender based on our custom references.
+3.  **Atmospheric Recreation:** Textures and lighting were tuned to match the real-world look and feel of the block.
 
-✔️ First-person movement using W A S D keys
+## ✨ Features
+* **Immersive Exploration:**
+    * **First-Person View (FPV):** Walk through the corridor as if you were on campus.
+    * **Third-Person View (TPV):** View the character and environment from an external angle.
+* **High-Fidelity Custom Assets:** Unique 3D models built specifically for this project.
+* **Interactive Camera:** Smooth transitions and controls powered by Three.js.
 
-✔️ Smooth navigation
+## 🛠️ Tech Stack
+* **3D Modeling:** Blender (`.blend` files included)
+* **Rendering Engine:** Three.js (WebGL)
+* **Language:** JavaScript / HTML5 / CSS3
 
-✔️ Optimized textures
+## 🚀 Getting Started
 
-**🛠️ Tech Stack**
+### Prerequisites
+To load the 3D models and textures correctly, you must run this project on a local web server (due to browser CORS policies).
 
-Blender (Modeling & texturing)
+### Installation & Running
 
-Three.js (Rendering engine)
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/Ishani018/gjbc-modelling.git](https://github.com/Ishani018/gjbc-modelling.git)
+    cd gjbc-modelling
+    ```
 
-JavaScript / ES Modules
+2.  **Start a local server:**
+    * **VS Code:** Install the "Live Server" extension, right-click `index.html`, and select "Open with Live Server".
+    * **Python:**
+        ```bash
+        # Python 3.x
+        python -m http.server
+        ```
+    * **Node.js:**
+        ```bash
+        npx serve
+        ```
 
-Vite / Live server for local testing
+3.  **Launch:**
+    Open your browser and navigate to the local address (usually `http://localhost:5500` or `http://localhost:8000`).
 
-**📂 Project Structure**
+## 🎮 Controls
+| Key / Action | Function |
+| :--- | :--- |
+| **W / A / S / D** | Move Character |
+| **Mouse** | Look Around |
+| **V** | Toggle Camera (First/Third Person) |
+| **Space** | Jump |
 
-
-
-**🚀 Running the Project**
-
-
-
-**🎯 Controls**
-
-W	Move Forward
-
-S	Move Backward
-
-A	Move Left
-
-D	Move Right
-
-Mouse	Look Around
-
-**🧰 How It Works**
-
-The corridor is modeled in Blender, exported as .glb
-
-Three.js loads the model using GLTFLoader
-
-Camera uses a custom first-person movement system (keyboard + mouse)
-
-Scene includes ambient lights for depth and realism
-
-**📜 License**
-
-This project is open-source and free to use.
+## 📂 Project Structure
