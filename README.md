@@ -4,6 +4,9 @@ A browser-based 3D visualization of the **Golden Jubilee Block Complex (GJBC) co
 
 This project is a faithful digital reconstruction of the hallway, built entirely from scratch to capture the specific architecture, lighting, and atmosphere of the campus block.
 
+<img width="1590" height="828" alt="image" src="https://github.com/user-attachments/assets/5d156913-0a7a-44d3-9d66-aa3ea74eb33d" />
+
+
 ## 🍊 The Orange Problem
 
 **Objective:** Create a precise 3D model of a specific campus asset and visualize it on the web.
