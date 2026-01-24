@@ -4,6 +4,7 @@ A browser-based 3D visualization of the **Golden Jubilee Block Complex (GJBC) co
 
 This project is a faithful digital reconstruction of the hallway, built entirely from scratch to capture the specific architecture, lighting, and atmosphere of the campus block.
 
+<img width="398" height="207" alt="image" src="https://github.com/user-attachments/assets/5cd5d850-5355-4cdd-a444-9b03d5edcd28" />
 <img width="398" height="207" alt="image" src="https://github.com/user-attachments/assets/5d156913-0a7a-44d3-9d66-aa3ea74eb33d" />
 <img width="398" height="207" alt="Screenshot 2026-01-24 154821" src="https://github.com/user-attachments/assets/2831bbdd-c7e8-4bc3-b7b8-84fedf6c27e9" />
 
